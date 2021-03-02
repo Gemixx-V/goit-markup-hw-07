@@ -897,7 +897,6 @@ textarea {
 }
 
 .footer-join {
-  
   width: 206px;
   height: 80px;
   display: block;
@@ -1102,8 +1101,6 @@ textarea {
   margin-bottom: 30px;
 }
 
-   
-
 .label {
   display: block;
   align-items: center;
@@ -1120,12 +1117,16 @@ textarea {
   transition-timing-function: var(--cubic);
 }
 
+.checkbox-icon:hover {
+  border: 2px solid var(--accent-color);
+}
+
 .checkbox-input:checked + .checkbox-icon {
   background-color: var(--accent-color);
   background-image: url(../images/check.svg);
-   border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-color);
   background-size: contain;
- background-origin: border-box;
+  background-origin: border-box;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic);
 }
@@ -1204,12 +1205,13 @@ textarea {
 }
 
 .subscription-button::after {
-    display: inline-block;
-    content: "";
-    margin-left: 10px;
-    width: 24px;
-    height: 24px;
-    background-image: url(../images/send.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  display: inline-block;
+  content: "";
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/send.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
