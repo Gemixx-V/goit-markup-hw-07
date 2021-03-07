@@ -7,8 +7,8 @@
   min-width: 528px;
   min-height: 581px;
   background: var(--main-background-color);
-  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
-    0px 2px 1px rgb(0 0 0 / 20%);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
@@ -40,8 +40,4 @@
 .icon-close:hover,
 .icon-close:focus {
   fill: var(--accent-color);
-}
-
-textarea {
-  resize: none;
 }

@@ -46,3 +46,14 @@ a,
 button {
   cursor: pointer;
 }
+.header {
+  border-bottom: 1px solid var(--border-header);
+}
+
+.header-portfolio {
+  border-bottom: 1px solid var(--border-header);
+}
+
+textarea {
+  resize: none;
+}
