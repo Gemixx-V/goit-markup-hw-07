@@ -301,8 +301,7 @@ textarea {
   padding: 10px 32px;
 }
 
-.hero-button:focus,
-.hero-button:hover {
+.hero-button:focus, .hero-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -365,8 +364,7 @@ textarea {
   transition-timing-function: var(--cubic);
 }
 
-.icon-close:hover,
-.icon-close:focus {
+.icon-close:hover, .icon-close:focus {
   fill: var(--accent-color);
 }
 
