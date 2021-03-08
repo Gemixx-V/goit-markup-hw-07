@@ -1,0 +1,10 @@
+.form-input:focus ~ .form-icon {
+  fill: var(--accent-color);
+}
+
+.form-input:focus {
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  border-color: var(--accent-color);
+}

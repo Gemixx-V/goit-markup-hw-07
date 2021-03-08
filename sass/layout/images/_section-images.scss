@@ -1,0 +1,11 @@
+.section-images {
+  padding-bottom: 94px;
+}
+.container-list,
+.container-list-team {
+  display: flex;
+}
+
+.container-list > li:not(:last-child) {
+  margin-right: 30px;
+}

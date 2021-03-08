@@ -1,0 +1,28 @@
+.footer-social-links-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: -10px;
+}
+
+.footer-social-links-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  fill: white;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms var(--cubic), fill 250ms var(--cubic), color 250ms var(--cubic);
+}
+.footer-social-link:focus,
+.footer-social-link:hover {
+  background: var(--accent-color);
+}

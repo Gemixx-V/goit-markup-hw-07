@@ -1,0 +1,35 @@
+.item-address {
+  margin-bottom: 9px;
+}
+.address {
+  display: block;
+}
+.address .link {
+  color: var(--secondary-accent-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  transition: color 250ms var(--cubic);
+}
+
+.address .link:hover,
+.address .link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.address-link {
+  color: var(--main-background-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  margin-bottom: 9px;
+  transition: color 250ms var(--cubic);
+}
