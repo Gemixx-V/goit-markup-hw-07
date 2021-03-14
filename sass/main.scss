@@ -1,75 +1,17 @@
-//UTILS
 @import "./utils/variables";
 
-// BASE
 @import "./base/common";
-
 @import "./base/container";
 
-//LAYOUT
-@import "./layout/header/logo";
-@import "./layout/header/navigation";
-
-@import "./layout/hero/hero";
-@import "./layout/hero/hero-container";
-@import "./layout/hero/hero-title";
-@import "./layout/hero/hero-button";
-
-//UTILS
-@import "./utils/backdrop";
-@import "./utils/modal";
-
-//LAYOUT
-@import "./layout/work/section-work";
-@import "./layout/work/container";
-@import "./layout/work/icon";
-@import "./layout/work/section-title";
-@import "./layout/work/section-text";
-
-@import "./layout/images/section-images";
-@import "./layout/images/images-title";
-@import "./layout/images/wrapper-list";
-@import "./layout/images/wrapper";
-
-@import "./layout/team/section";
-@import "./layout/team/cards";
-@import "./layout/team/social-link";
-@import "./layout/team/svg-icon";
-@import "./layout/team/svg-icon";
-@import "./layout/team/name";
-@import "./layout/team/specialisation";
-@import "./layout/team/team";
-
-@import "./layout/customers/clients";
-@import "./layout/customers/clients-icon";
-
-@import "./layout/footer/text";
-@import "./layout/footer/container";
-@import "./layout/footer/wrapper";
-@import "./layout/footer/logo";
-@import "./layout/footer/address";
-@import "./layout/footer/footer-join";
-@import "./layout/footer/social-link";
-
-@import "./layout/form/form";
-@import "./layout/form/form-data";
-@import "./layout/form/form-field";
-@import "./layout/form/form-field-label";
-@import "./layout/form/form-field-input";
-@import "./layout/form/form-field-textarea";
-@import "./layout/form/form-comment";
-
-@import "./layout/chekbox/checkbox";
-@import "./layout/chekbox/checkbox-input";
-@import "./layout/chekbox/placeholder";
-@import "./layout/chekbox/submitting-form";
-
-@import "./layout/form/form-icon";
-@import "./layout/form/form-input";
-@import "./layout/form/label";
-@import "./layout/chekbox/checkbox-icon";
-@import "./layout/chekbox/checkbox-input";
-@import "./layout/subscription/subscription";
-@import "./layout/subscription/subscription-text";
-@import "./layout/subscription/subscription-input";
-@import "./layout/subscription/subscription-button";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/backdrop";
+@import "./layout/modal";
+@import "./layout/work";
+@import "./layout/images";
+@import "./layout/team";
+@import "./layout/customers";
+@import "./layout/footer";
+@import "./layout/form";
+@import "./layout/checkbox";
+@import "./layout/subscription";

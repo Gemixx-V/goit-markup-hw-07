@@ -1,32 +1,11 @@
-//UTILS
 @import "./utils/variables";
 
-//BASE
 @import "./base/common";
 @import "./base/container";
 
-//LAYOUT
-@import "./layout/header/logo";
-@import "./layout/header/navigation";
-
-@import "./layout/team/svg-icon";
-
-@import "./layout/portfolio/menu";
-@import "./layout/portfolio/button";
-@import "./layout/portfolio/projects-list";
-@import "./layout/portfolio/portfolio-element";
-@import "./layout/portfolio/menu-title";
-@import "./layout/portfolio/text-item";
-@import "./layout/portfolio/project-photo-wrapper";
-@import "./layout/portfolio/overlay";
-@import "./layout/footer/text";
-@import "./layout/footer/container";
-@import "./layout/footer/wrapper";
-@import "./layout/footer/logo";
-@import "./layout/footer/address";
-@import "./layout/footer/footer-join";
-@import "./layout/footer/social-link";
-@import "./layout/subscription/subscription";
-@import "./layout/subscription/subscription-text";
-@import "./layout/subscription/subscription-input";
-@import "./layout/subscription/subscription-button";
+@import "./layout/header";
+@import "./layout/team";
+@import "./layout/portfolio-menu";
+@import "./layout/overlay";
+@import "./layout/footer";
+@import "./layout/subscription";
