@@ -15,9 +15,8 @@
   margin-right: calc(-1 * 30px);
   align-items: center;
   justify-content: center;
-}
 
-.clients-item {
+&-item {
   display: flex;
   align-items: center;
   width: calc(100% / 6 - 30px);
@@ -25,6 +24,7 @@
   color: var(--primary-text-color);
   width: 170px;
   height: 90px;
+}
 }
 
 .clients-icon-link {
@@ -38,6 +38,12 @@
   border-radius: 4px;
   fill: currentColor;
   transition: color 250ms var(--cubic), border 250ms var(--cubic);
+
+&:hover,
+&:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
 }
 
 .clients-icon-ya-co {
@@ -70,8 +76,3 @@
   height: 45px;
 }
 
-.clients-icon-link:hover,
-.clients-icon-link:focus {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}

@@ -5,10 +5,10 @@
 .container-title {
   display: flex;
   text-align: left;
-}
 
-.container-title > li:not(:last-child) {
+& > li:not(:last-child) {
   margin-right: 30px;
+}
 }
 
 .section-work {
@@ -23,6 +23,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .container-list-item::before {
   display: block;
   content: "";

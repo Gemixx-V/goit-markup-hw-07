@@ -9,13 +9,10 @@
   font-size: 14px;
   line-height: 1.72;
   letter-spacing: 0.03em;
-}
 
-.checkbox input {
+& input {
   margin-right: 8px;
-
   position: absolute;
-
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0;
   border: 0;
@@ -23,6 +20,8 @@
   width: 1px;
   overflow: hidden;
 }
+}
+
 
 .placeholder {
   font-family: Roboto;
@@ -33,6 +32,7 @@
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 
 .submitting-form {
   display: block;
@@ -53,12 +53,13 @@
   border-radius: 4px;
   border: none;
 }
+
+
 .checkbox-accent {
   text-decoration-line: underline;
   text-decoration-skip-ink: none;
   color: var(--accent-color);
 }
-
 
 .label {
   display: block;
@@ -74,10 +75,12 @@
   border-radius: 2px;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic);
-}
-.checkbox-icon:hover {
+
+&:hover {
   border: 2px solid var(--accent-color);
 }
+}
+
 
 .checkbox-input:checked + .checkbox-icon {
   background-color: var(--accent-color);
@@ -87,12 +90,13 @@
   background-origin: border-box;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic);
-}
 
-.checkbox-input ~ .label {
+& ~ .label {
   display: inline-flex;
   align-items: center;
 }
+}
+
 
 .checkbox-text {
   font-family: Roboto;

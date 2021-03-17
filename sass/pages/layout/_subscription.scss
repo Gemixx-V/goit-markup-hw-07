@@ -4,6 +4,10 @@
   text-align: left;
   top: 0;
   right: 0;
+
+&-form {
+  display: flex;
+}
 }
 
 .subscription-text {
@@ -15,10 +19,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-background-color);
-}
-
-.subscription-form {
-  display: flex;
 }
 
 .subscription-input {
@@ -54,9 +54,8 @@
   letter-spacing: 0.06em;
   color: var(--main-background-color);
   transition: background 250ms var(--cubic);
-}
 
-.subscription-button::after {
+&::after {
   display: inline-block;
   content: "";
   margin-left: 10px;
@@ -66,4 +65,5 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
 }

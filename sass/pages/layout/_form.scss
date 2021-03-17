@@ -3,9 +3,9 @@
   height: 342px;
   margin-left: auto;
   margin-right: auto;
-}
 
-.form-data {
+
+  &-data {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -16,6 +16,7 @@
   margin-top: 0px;
   margin-bottom: 12px;
 }
+}
 
 .form-field {
   display: block;
@@ -23,9 +24,9 @@
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-}
 
-.form-field label {
+
+  & label {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -33,6 +34,7 @@
   line-height: 1.17;
   letter-spacing: 0.01em;
   margin-bottom: 4px;
+}
 }
 
 .form-field input {

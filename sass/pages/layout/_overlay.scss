@@ -9,8 +9,8 @@
   padding: 63px 24px;
   transform: translateY(100%);
   transition: transform 250ms var(--cubic);
-}
-.overlay-title {
+
+&-title {
   align-items: center;
   font-family: Roboto;
   font-style: normal;
@@ -21,6 +21,8 @@
   color: var(--main-background-color);
   text-align: left;
 }
+}
+
 .portfolio-element > .link:hover .overlay,
 .portfolio-element > .link:focus .overlay {
   transform: translateY(0);

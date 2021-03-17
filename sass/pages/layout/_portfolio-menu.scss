@@ -2,6 +2,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .part {
   display: flex;
   justify-content: center;
@@ -26,6 +27,15 @@
   display: inline-block;
   transition: color 250ms var(--cubic), background-color 250ms var(--cubic),
     box-shadow 250ms var(--cubic);
+
+&:hover,
+&:focus {
+  background-color: var(--accent-color);
+  color: var(--main-background-color);
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 }
 
 .projects-list > .button-active {
@@ -38,22 +48,14 @@
 
 .projects-list:not(:last-child) {
   margin-right: 8px;
-}
 
-.projects-list:hover,
-.projects-list:focus {
+&:hover,
+&:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-.part .button:hover,
-.part .button:focus {
-  background-color: var(--accent-color);
-  color: var(--main-background-color);
-  border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 
 .portfolio-items {
   display: flex;
@@ -66,20 +68,22 @@
   width: calc((100% - (2 * 30px)) / 3);
   border: 1px solid var(--border-portfolio);
   position: relative;
-}
 
-.portfolio-element:nth-child(3n) {
+&:nth-child(3n) {
   margin-right: 0;
 }
+}
 
-.portfolio-element > .link:hover,
-.portfolio-element > .link:focus {
+.portfolio-element > .link {
+  display: block;
+
+&:hover,
+&:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-element > .link {
-  display: block;
 }
+
 .link {
   transition: color 250ms var(--cubic);
 }
