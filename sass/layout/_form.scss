@@ -4,18 +4,17 @@
   margin-left: auto;
   margin-right: auto;
 
-
   &-data {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-top: 0px;
-  margin-bottom: 12px;
-}
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 12px;
+  }
 }
 
 .form-field {
@@ -25,16 +24,15 @@
   display: flex;
   flex-direction: column;
 
-
   & label {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  margin-bottom: 4px;
-}
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    margin-bottom: 4px;
+  }
 }
 
 .form-field input {
@@ -63,6 +61,7 @@
 .form-comment {
   margin-bottom: 20px;
 }
+
 .form-icon {
   display: block;
   position: absolute;
@@ -72,6 +71,7 @@
   transition-duration: 250ms;
   transition-timing-function: var(--cubic);
 }
+
 .form-input:focus ~ .form-icon {
   fill: var(--accent-color);
 }

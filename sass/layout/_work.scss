@@ -6,9 +6,9 @@
   display: flex;
   text-align: left;
 
-& > li:not(:last-child) {
-  margin-right: 30px;
-}
+  & > li:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .section-work {
@@ -40,21 +40,19 @@
   background-image: url("../images/svg-images/antenna.svg");
   background-size: 70px 70px;
 }
-
 .icon-clock::before {
   background-image: url("../images/svg-images/clock.svg");
   background-size: 70px 70px;
 }
-
 .icon-laptop::before {
   background-image: url("../images/svg-images/laptop.svg");
   background-size: 70px 70px;
 }
-
 .icon-astronaut::before {
   background-image: url("../images/svg-images/astronaut.svg");
   background-size: 70px 70px;
 }
+
 .section-title {
   color: var(--secondary-text-color);
   font-family: Roboto, sans-serif;

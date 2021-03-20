@@ -10,11 +10,20 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-&-container {
-  position: relative;
-  display: flex;
-  align-items: baseline;
+  &-container {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+  }
 }
+.footer-logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .footer-wrapper {
@@ -47,11 +56,10 @@
   transition: color 250ms var(--cubic);
 
   &:hover,
-  &:focus  {
-  color: var(--accent-color);
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-}
-
 
 .address-link {
   color: var(--main-background-color);
@@ -66,8 +74,8 @@
 
   &:hover,
   &:focus {
-  color: var(--accent-color);
-}
+    color: var(--accent-color);
+  }
 }
 
 .footer-join {
@@ -114,6 +122,6 @@
 
   &:focus,
   &:hover {
-  background: var(--accent-color);
-}
+    background: var(--accent-color);
+  }
 }

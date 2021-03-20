@@ -16,15 +16,15 @@
   align-items: center;
   justify-content: center;
 
-&-item {
-  display: flex;
-  align-items: center;
-  width: calc(100% / 6 - 30px);
-  margin-right: 30px;
-  color: var(--primary-text-color);
-  width: 170px;
-  height: 90px;
-}
+  &-item {
+    display: flex;
+    align-items: center;
+    width: calc(100% / 6 - 30px);
+    margin-right: 30px;
+    color: var(--primary-text-color);
+    width: 170px;
+    height: 90px;
+  }
 }
 
 .clients-icon-link {
@@ -39,11 +39,11 @@
   fill: currentColor;
   transition: color 250ms var(--cubic), border 250ms var(--cubic);
 
-&:hover,
-&:focus {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .clients-icon-ya-co {
@@ -75,4 +75,3 @@
   width: 88px;
   height: 45px;
 }
-
